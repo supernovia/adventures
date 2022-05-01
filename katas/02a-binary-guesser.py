@@ -20,7 +20,7 @@ pause = input(hr+"Think of a whole number between 1 and 100... then press enter"
 # start guessing! Get input so we know how to adjust or whether I got it:
 correct = input("Is it "+str(guess)+"? Type (h)higher, (l)ower, or (y)es: ")
 
-# and as long as I'm NOT correct, adjust my guess, and ask again! Could pro
+# and as long as I'm NOT correct, adjust my guess, and ask again!
 while correct != "y":
     adjuster = round(adjuster / 2)  # Cutting the "distance" between guesses in half
     if correct == "h":  # then adding that number to my guess if it's higher...
