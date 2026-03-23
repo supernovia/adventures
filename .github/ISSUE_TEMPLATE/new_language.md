@@ -7,21 +7,26 @@ labels:
 ---
 
 ## Language
-<!-- ✏️ Replace with the language name, e.g. Japanese. Update the issue title too. -->
+<!-- *** Replace with the language name, e.g. Japanese. Update the issue title too. *** -->
 
 ## Locale code
-LOCALE_CODE <!-- ✏️ Replace with the locale code for the i18n/ directory, e.g. ja, pt-br -->
+LOCALE_CODE <!-- *** Replace with the locale code for the i18n/ directory, e.g. ja, pt-br, ru *** -->
 
-## Translation resources
-<!-- ✏️ Add helpful links for translators — glossaries, style guides, Polyglots pages, GlotPress links, etc. Delete this section if none. -->
+## Links
+<!-- *** Replace LOCALE_CODE in each of these *** -->
+- https://wordpress.github.io/wordpress-playground/contributing/translations/
+- https://wordpress.github.io/wordpress-playground/LOCALE_CODE/
+- https://wordpress.github.io/wordpress-playground/LOCALE_CODE/contributing/translations/
+- https://LOCALE_CODE.wordpress.org/team/handbook/translations/
+- https://LOCALE_CODE.wordpress.org/team/handbook/translation/translation-style-guide/
 
-- https://translate.wordpress.org/locale/LOCALE_CODE/default/ <!-- ✏️ Replace LOCALE_CODE -->
+## Note
+<!-- *** Replace LOCALE_CODE once more in this section *** -->
+Each new file's path and name must mirror the original English file. For example:
+- English original: packages/docs/site/docs/main/contributing/documentation.md
+- Translation: packages/docs/site/i18n/LOCALE_CODE/docusaurus-plugin-content-docs/current/main/contributing/documentation.md 
 
-## How to contribute
-
-Translations live in `i18n/LOCALE_CODE`. Each translated file should mirror the path and filename of the original English source in `docs/`. <!-- ✏️ Replace LOCALE_CODE -->
-
-<!-- ✅ Done — leave everything below as-is. -->
+<!-- *** Done — leave everything below as-is. *** -->
 
 For general guidance, see [Contributing: Translations](https://wordpress.github.io/wordpress-playground/contributing/translations).
 
