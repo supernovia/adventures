@@ -7,22 +7,21 @@ labels:
 ---
 
 ## Language
-
-<!-- Replace with the language name, e.g. Japanese -->
+<!-- ✏️ Replace with the language name, e.g. Japanese. Update the issue title too. -->
 
 ## Locale code
-
-<!-- Replace with the locale code used for the i18n/ directory, e.g. ja -->
+LOCALE_CODE <!-- ✏️ Replace with the locale code for the i18n/ directory, e.g. ja, pt-br -->
 
 ## Translation resources
+<!-- ✏️ Add helpful links for translators — glossaries, style guides, Polyglots pages, GlotPress links, etc. Delete this section if none. -->
 
-<!-- Add any helpful links for translators — glossaries, style guides, Polyglots pages, GlotPress links, community Slack channels, etc. Delete this section if none are available yet. -->
-
-- https://translate.wordpress.org/locale/LOCALE_CODE/default/
+- https://translate.wordpress.org/locale/LOCALE_CODE/default/ <!-- ✏️ Replace LOCALE_CODE -->
 
 ## How to contribute
 
-Translations live in `i18n/[locale code]`. Each translated file should mirror the path and filename of the original English source in `docs/`.
+Translations live in `i18n/LOCALE_CODE`. Each translated file should mirror the path and filename of the original English source in `docs/`. <!-- ✏️ Replace LOCALE_CODE -->
+
+<!-- ✅ Done — leave everything below as-is. -->
 
 For general guidance, see [Contributing: Translations](https://wordpress.github.io/wordpress-playground/contributing/translations).
 
